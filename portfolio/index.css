@@ -6,6 +6,7 @@
     font-family: 'Ubuntu', sans-serif;
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Cairo', sans-serif; */
+    transition: all ease-in-out 1s;
 }
 
 html {
@@ -99,6 +100,7 @@ html {
 .buttons i {
     margin-top: -1px;
     margin-right: 10px;
+    color: #f5ebe0;
     transition: all ease-in-out 0.2s;
 }
 
@@ -146,7 +148,7 @@ html {
 .text h1 {
     font-size: 42px;
     text-transform: uppercase;
-    color: #b9a396;
+    color: #f5ebe0;
     letter-spacing: 2px;
 }
 
@@ -204,6 +206,7 @@ html {
     border-radius: 100px;
     margin-top: 30px;
     color: #b9a396;
+    font-weight: 600;
     text-decoration: none;
     font-size: 20px;
     transition: all ease-in-out 0.3s;
@@ -214,6 +217,7 @@ html {
     color: #6d6875;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 600;
     background-color: #d5bdaf;
     transition: all ease 0.2s;
 }
@@ -278,12 +282,14 @@ html {
     font-size: 20px;
     transition: all ease-in-out 0.3s;
     box-shadow: 2px 5px 5px #6d6875ce;
+    font-weight: 600;
 }
 
 .lions .words a:hover {
     color: #6d6875;
     text-decoration: none;
     font-size: 20px;
+    font-weight: 600;
     background-color: #d5bdaf;
     transition: all ease 0.2s;
 }
@@ -353,6 +359,7 @@ html {
     font-size: 20px;
     transition: all ease-in-out 0.3s;
     box-shadow: 2px 5px 5px #6d6875ce;
+    font-weight: 600;
 }
 
 .auca .words a:hover {
@@ -361,6 +368,7 @@ html {
     font-size: 20px;
     background-color: #d5bdaf;
     transition: all ease 0.2s;
+    font-weight: 600;
 }
 
 .auca h1 {
