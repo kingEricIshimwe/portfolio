@@ -18,6 +18,8 @@ html{
 
 .banner{
     padding-top: -50px;
+    background-color: #264653;
+    height: 100vh;
 }
 
 
@@ -27,6 +29,7 @@ html{
     margin-right: 650px;
     font-size: 56px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .logo span{
@@ -35,17 +38,20 @@ html{
 }
 
 .nav{
-    background-color: #f5ebe0c0;
+    background-color: #f5ebe0;
+    margin-top: 60px;
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 30px;
-    border-bottom-left-radius: 1000px;
-    border-bottom-right-radius: 1000px;
-    transform: scale(95%);
+    /* transform: scale(95%); */
     margin-top: -2px;
     box-shadow: 0px 2px 10px #6d687591;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav ul li{
@@ -69,10 +75,11 @@ html{
 }
 
 
+
 .buttons a{
     width: 230px;
     height: 50px;
-    background-color: #264653;
+    background-color: #b9a396;
     text-align: center;
     padding-right: 20px;
     display: flex;
@@ -80,10 +87,9 @@ html{
     align-items: center;
     border-radius: 100px;
     position: absolute;
-    top: 60%;
-    left: 20%;
-    margin-top: 150px;
-    color: #b9a396;
+    margin-top: 580px;
+    margin-left: 300px;
+    color: #264653;
     text-decoration: none;
     font-size: 20px;
     transition: all ease-in-out 0.3s;
@@ -93,13 +99,11 @@ html{
 .buttons i{
     margin-top: -1px;
     margin-right: 10px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.2s;
 }
 
-
-
 .buttons a:hover{
-    color: #6d6875;
+    color: #675e75;
     text-decoration: none;
     font-size: 20px;
     background-color: #d5bdaf;
@@ -109,18 +113,16 @@ html{
 
 .buttons i:hover{
     color: #264653;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.2s;
 }
-
-
 
 .image{
     float: right;
-    margin-right: 250px;
-    margin-top: 150px;
-    background-color: #f5ebe0;
+    margin-right: 230px;
+    margin-top: 250px;
+    background-color: #f5ebe0be;
     border-radius: 200px;
-    box-shadow: 5px 10px 60px #6d6875cc;
+    box-shadow: 5px 10px 30px #6d6875;
 }
 
 .image img{
@@ -130,21 +132,21 @@ html{
 }
 
 .text{
-    position: absolute;
-    top: 50%;
-    left: 20%;
+    float: left;
+    margin-top: 360px;
+    margin-left: 310px;
 }
 .text p{
     font-size: 22px;
     padding-top: 20px;
-    padding-left: 10px;
+    font-weight: 100;
     color: #b9a396;
 }
 
 .text h1{
     font-size: 42px;
     text-transform: uppercase;
-    color: #264653;
+    color: #b9a396;
     letter-spacing: 2px;
 }
 
@@ -157,11 +159,15 @@ html{
 /* ====================================================== */
 .projects{
     /* width: 1000px; */
-    margin-top: 700px;
+    margin-top: 100px;
 }
 
 .title{
+    margin-top: -100px;
     margin-bottom: 120px;
+    background-color: #b9a396;
+    padding: 50px;
+
 }
 .title h1{
     color: #264653;
@@ -171,7 +177,7 @@ html{
 }
 
 .title span{
-    color: #b9a396;
+    color: #fcfcfc;
 }
 
 /* ============================================================ */
@@ -424,7 +430,7 @@ i,.fa{
 }
 
 .icon{
-    margin-left: 260px;
+    margin-left: 230px;
 }
 
 .address a{
@@ -433,6 +439,7 @@ i,.fa{
 
 .address p{
     float: right;
+    letter-spacing: 1px;
 }
 
 .address a:hover{
@@ -443,4 +450,5 @@ i,.fa{
     color: #b9a396;
     text-align: center;
     margin-top: 50px;
+    font-size: 18px;
 }
